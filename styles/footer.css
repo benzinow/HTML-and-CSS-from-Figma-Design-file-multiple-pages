@@ -1,0 +1,39 @@
+footer {
+  background-color: #f9f7fe;
+}
+
+.footer {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.copyright {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+}
+
+.icon {
+  width: 15px;
+  filter: invert(10%) sepia(7%) saturate(6449%) hue-rotate(215deg)
+    brightness(103%) contrast(91%);
+}
+
+.socials {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+}
