@@ -1,14 +1,18 @@
-header {
+.header {
   width: 100%;
   background-image: url(/images/banner.png);
   color: #ffffff;
-  text-align: center;
+
   height: 265px;
   margin-bottom: 50px;
 }
 
 @media (max-width: 599px) {
-  header {
+  .header {
     height: fit-content;
   }
+}
+
+header {
+  text-align: center;
 }

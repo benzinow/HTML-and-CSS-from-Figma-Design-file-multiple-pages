@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto&display=swap");
+
 @import url(styles/navigation.css);
 @import url(styles/header.css);
 @import url(styles/recipe-gallery.css);
 @import url(styles/footer.css);
+@import url(styles/profile.css);
+@import url(styles/recipe-gallery.css);
 
 body {
   font-family: "Nunito";
-  border: 1px solid red;
   margin: 0px;
   padding: 0px;
   min-width: 400px;
