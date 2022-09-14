@@ -1,0 +1,30 @@
+.favorite-gallery {
+  width: 80%;
+  margin: 0 auto;
+  border: 1 solid red;
+}
+
+.gallery-card {
+  width: 31%;
+}
+
+.gallery-cards {
+  margin: 0 auto;
+  display: flex;
+  gap: 3%;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .gallery-cards {
+    flex-direction: column;
+  }
+  .gallery-card {
+    width: 100%;
+  }
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+}
