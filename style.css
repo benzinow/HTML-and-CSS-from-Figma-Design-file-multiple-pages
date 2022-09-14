@@ -8,6 +8,7 @@
 @import url(styles/recipe-gallery.css);
 @import url(styles/favorite-gallery.css);
 @import url(styles/collection.css);
+@import url(styles/contact.css);
 
 body {
   font-family: "Nunito";

@@ -1,0 +1,33 @@
+.contact-card {
+  width: 68%;
+  margin: 0 auto;
+  display: flex;
+  gap: 8%;
+  align-items: center;
+  padding-top: 126px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+  max-height: 375px;
+  gap: 50px;
+}
+
+.contact-title {
+  color: #662eed;
+}
+
+.contact-text {
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.contact-bar {
+  display: flex;
+  align-items: center;
+}
